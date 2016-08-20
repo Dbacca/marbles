@@ -1,5 +1,10 @@
+@import 'var.scss';
+
+
 .logo{
   margin-left: 5%;
+  display: inline-block;
+  vertical-align: middle;
     &__text{
       font-family: 'Merriweather', serif;
       font-size: 30px;

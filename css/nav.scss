@@ -1,0 +1,21 @@
+.nav{
+  position: fixed;
+  right:0;
+  top: 0;
+  height: 100vh;
+  z-index: 10;
+  // max-width: 40%;
+  width: 40%;
+  // height: 100%;
+  border: 5px solid white;
+  background: url('../img/navBG.png') no-repeat center center;
+  overflow: scroll;
+
+  a {
+    display: block;
+    margin: 100px;
+    width: 200px;
+    background: white;
+    min-height: 500px;
+  }
+}

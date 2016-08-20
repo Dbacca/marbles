@@ -1,10 +1,17 @@
+@import 'var.scss';
+
+
 .welcome{
   max-width: 41%;
   margin-left: 13%;
+  max-height: 26%;
+  display: inline-block;
+
   &__heading{
     font-family: $font-stack1;
     font-size: 100px;
     color: $primary-color;
+    margin: 0;
   }
   &__subHeading{
     font-family: $font-stack2;

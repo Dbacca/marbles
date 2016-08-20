@@ -1,0 +1,20 @@
+@import 'var.scss';
+
+
+.menuButton{
+  width: 37px;
+  height: 37px;
+  position: fixed;
+  top: 75px;
+  right: 75px;
+  border: 1px solid $primary-color;
+  vertical-align: middle;
+  margin-left: 85%;
+  z-index: 20;
+
+  &__icon{
+    width: 50%;
+    height: 50%;
+    margin: 25%;
+  }
+}
