@@ -1,0 +1,22 @@
+.welcome{
+  max-width: 41%;
+  margin-left: 13%;
+  &__heading{
+    font-family: $font-stack1;
+    font-size: 100px;
+    color: $primary-color;
+  }
+  &__subHeading{
+    font-family: $font-stack2;
+    font-weight: 300;
+    font-size: 30px;
+    color: #8d8d8d;
+
+  }
+  &__message{
+    font-family: $font-stack1;
+    font-weight: 300;
+    font-size: 18px;
+    color: #8d8d8d;
+  }
+}

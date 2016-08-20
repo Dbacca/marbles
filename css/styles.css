@@ -1,0 +1,68 @@
+.logo {
+  margin-left: 5%; }
+  .logo__text {
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    color: #cbab68; }
+
+.welcome {
+  max-width: 41%;
+  margin-left: 13%; }
+  .welcome__heading {
+    font-family: "Lato", sans-serif;
+    font-size: 100px;
+    color: #cbab68; }
+  .welcome__subHeading {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #8d8d8d; }
+  .welcome__message {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #8d8d8d; }
+
+.button {
+  width: 159px;
+  height: 49px;
+  border-radius: 50px;
+  border: 1px solid #cbab68;
+  padding: 5px 10px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  outline: none;
+  margin-top: 1.75%; }
+  .button__text {
+    font-family: "Lato", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: #cbab68;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 2px; }
+  .button__icon {
+    width: 6px;
+    height: 11px;
+    background-image: url(/img/arrowIcon.png);
+    display: inline-block;
+    vertical-align: middle; }
+
+.homeContent {
+  background-color: #282828;
+  border: 4px solid #cbab68;
+  position: fixed !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("/img/lineModel.png");
+  background-repeat: no-repeat;
+  background-position: right; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+/*# sourceMappingURL=styles.css.map */

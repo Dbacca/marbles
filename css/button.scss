@@ -1,0 +1,27 @@
+.button{
+  width:159px;
+  height: 49px;
+  border-radius: 50px;
+  border: 1px solid $primary-color;
+  padding: 5px 10px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  outline: none;
+  margin-top: 1.75%;
+  &__text{
+    font-family: $font-stack1;
+    font-size: 13px;
+    font-weight: 300;
+    color: $primary-color;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right:2px
+  }
+  &__icon{
+    width:6px;
+    height:11px;
+    background-image: url(/img/arrowIcon.png);
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
