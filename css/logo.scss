@@ -2,12 +2,16 @@
 
 
 .logo{
-  margin-left: 5%;
-  display: inline-block;
-  vertical-align: middle;
+  width: 37px;
+  height: 37px;
+  position: fixed;
+  top: 75px;
+  left: 75px;
+
     &__text{
       font-family: 'Merriweather', serif;
       font-size: 30px;
       color: $primary-color;
+      margin: 0;
     }
 }

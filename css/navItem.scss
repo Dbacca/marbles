@@ -1,0 +1,37 @@
+.navItem{
+  max-width: 23%;
+  min-width: 157px;
+  min-height: 157px;
+  text-align: center;
+  display: inline-block;
+  margin: .735%;
+    &:hover{
+      border: 1px solid $primary-color;    
+    }
+
+  &__icon{
+    min-width: 40px;
+    min-height: 37px;
+    padding-top: 12%;
+
+    // border: 1px solid #fff;
+    &--notes{
+      // background-image: url('../img/notes.png');
+      // background-position: center;
+      // background-repeat: no-repeat;
+    }
+  }
+  &__chapter{
+    font-family: $font-stack2;
+    font-size: 16px;
+    color: $primary-color;
+    font-weight: 300;
+  }
+  &__page{
+    text-transform: capitalize;
+    font-family: $font-stack1;
+    font-size: 16px;
+    font-weight: 900;
+    color: #fff;
+  }
+}
