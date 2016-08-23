@@ -1,26 +1,53 @@
+.navItemWrapper{
+  max-width:80%;
+  min-height:520px;
+  margin: 0 auto;
+  margin-top: 25%;
+  overflow: scroll;
+}
 .navItem{
+  text-decoration: none;
   max-width: 23%;
-  min-width: 157px;
+  min-width: 152px;
   min-height: 157px;
   text-align: center;
   display: inline-block;
-  margin: .735%;
+  margin: 1.3%;
+  padding-top: 17%;
+  background-position: center 35%;  // horizontal vertical
+  background-size: 25% auto;  // width height
+  background-repeat: no-repeat;
+  border: 1px solid rgba(0, 0, 0, 0.0);
     &:hover{
-      border: 1px solid $primary-color;    
+      border: 1px solid $primary-color;
     }
 
-  &__icon{
-    min-width: 40px;
-    min-height: 37px;
-    padding-top: 12%;
+    &--home{
+      background-image: url('../img/notes.svg');
 
-    // border: 1px solid #fff;
-    &--notes{
-      // background-image: url('../img/notes.png');
-      // background-position: center;
-      // background-repeat: no-repeat;
     }
-  }
+    &--aboutUs{
+      background-image: url('../img/timelapse.svg');
+      }
+    &--team{
+    background-image: url('../img/user.svg');
+    }
+    &--services{
+    background-image: url('../img/reminders.svg');
+    }
+    &--portfolio{
+      background-image: url('../img/gallery.svg');
+    }
+    &--blog{
+      background-image: url('../img/notepad.svg');
+    }
+    &--careers{
+      background-image: url('../img/business.svg');
+    }
+    &--contact{
+      background-image: url('../img/unread-mail.svg');
+    }
+
   &__chapter{
     font-family: $font-stack2;
     font-size: 16px;

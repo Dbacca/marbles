@@ -8,6 +8,13 @@
   top: 75px;
   left: 75px;
 
+  &--nav{
+    position: fixed;
+    top: 75px;
+    right: 600px;
+    left: auto;
+  }
+
     &__text{
       font-family: 'Merriweather', serif;
       font-size: 30px;
