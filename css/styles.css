@@ -3,12 +3,16 @@
   height: 37px;
   position: fixed;
   top: 75px;
-  left: 75px; }
+  left: 75px;
+  transition: all 0.6s ease .2s; }
   .logo--nav {
     position: fixed;
     top: 75px;
     right: 600px;
-    left: auto; }
+    left: auto;
+    opacity: 0; }
+  .logo--active {
+    opacity: 1; }
   .logo__text {
     font-family: 'Merriweather', serif;
     font-size: 30px;
@@ -86,7 +90,7 @@
   overflow: scroll;
   border-bottom: 4px solid #cbab68;
   opacity: 0;
-  transition: all 0.6s cubic-bezier(0.2, 0.8, 0.9, 1);
+  transition: all 0.6s cubic-bezier(0.3, 0.8, 0.9, 1);
   transform: translateZ(0); }
   .nav--active {
     opacity: 1;
@@ -111,7 +115,10 @@
   background-position: center 35%;
   background-size: 25% auto;
   background-repeat: no-repeat;
-  border: 1px solid transparent; }
+  transition: all 0.6s ease .2s;
+  opacity: 0; }
+  .navItem--active {
+    opacity: 1; }
   .navItem:hover {
     border: 1px solid #cbab68; }
   .navItem--home {
@@ -180,6 +187,114 @@
   left: 50%;
   transform: translateX(-50%);
   text-align: center; }
+
+.background {
+  display: inline-block;
+  position: fixed;
+  max-width: 40%;
+  bottom: -80px;
+  right: -80px;
+  z-index: 5; }
+
+.teamRoleList {
+  max-width: 40%;
+  min-width: 445px;
+  height: 500px;
+  display: inline-block; }
+  .teamRoleList__item {
+    width: 160px;
+    max-width: 50%;
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: text-top; }
+
+.teamRole {
+  display: inline-block;
+  max-width: 50%; }
+  .teamRole__heading {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    color: #cbab68;
+    list-style: none; }
+  .teamRole__name {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #969696;
+    list-style: none; }
+    .teamRole__name:hover {
+      color: #cbab68; }
+
+.teamHeading {
+  margin-left: 13%;
+  margin-top: 13%;
+  text-align: left; }
+  .teamHeading__main {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    color: #cbab68;
+    font-size: 100px;
+    margin: 0; }
+  .teamHeading__sub {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #969696;
+    margin: 0; }
+
+.teamBackground {
+  display: inline-block;
+  z-index: 1;
+  position: fixed;
+  right: 0;
+  bottom: 4px; }
+
+.label {
+  background-color: #000000;
+  width: 347px;
+  height: 100px;
+  display: inline-block;
+  z-index: 2; }
+  .label__logo {
+    font-family: "Merriweather", serif;
+    font-size: 60px;
+    color: #cbab68;
+    font-weight: 300;
+    display: inline-block;
+    margin: 0; }
+  .label__name {
+    margin: 0;
+    display: inline-block;
+    color: #8d8d8d;
+    font-size: 24px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300; }
+  .label__role {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    display: inline-block;
+    color: #cbab68; }
+
+.chapter {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4; }
+  .chapter__number {
+    font-family: "Merriweather", serif;
+    font-weight: 30px;
+    color: #cbab68;
+    font-weight: 300;
+    z-index: 1;
+    display: inline-block; }
+  .chapter__box {
+    width: 63px;
+    height: 63px;
+    border: 1px solid #cbab68; }
 
 *, *:before, *:after {
   box-sizing: border-box; }

@@ -7,13 +7,20 @@
   position: fixed;
   top: 75px;
   left: 75px;
+  transition: all 0.6s ease .2s;
 
   &--nav{
     position: fixed;
     top: 75px;
     right: 600px;
     left: auto;
+    opacity: 0;
   }
+
+  &--active{
+    opacity: 1;
+  }
+
 
     &__text{
       font-family: 'Merriweather', serif;

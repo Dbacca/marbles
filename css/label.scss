@@ -1,0 +1,35 @@
+@import 'var.scss';
+
+.label{
+  background-color: #000000;
+  width: 347px; // this is the width designated in the comp
+  height: 100px;// this is the height designated in the comp
+  display: inline-block;
+  z-index: 2; // why wont this float about the team background that
+              //that has a z-index of 1?
+
+  &__logo{
+    font-family: $font-stack2;
+    font-size: 60px;
+    color: $primary-color;
+    font-weight: 300;
+    display: inline-block;
+    margin: 0;
+  }
+  &__name{
+    margin: 0;
+    display: inline-block;
+    color: #8d8d8d;
+    font-size: 24px;
+    font-family: $font-stack1;
+    font-weight: 300;
+  }
+  &__role{
+    font-family: $font-stack1;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    display: inline-block;
+    color: $primary-color;
+  }
+}
