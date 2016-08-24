@@ -2,14 +2,17 @@
 
 
 .menuButton{
-  cursor: pointer;
-  width: 37px;
-  height: 37px;
   position: fixed;
+  z-index: 20;
   top: 75px;
   right: 75px;
+
+  width: 37px;
+  height: 37px;
+
+  cursor: pointer;
+
   border: 1px solid $primary-color;
-  z-index: 20;
 
   &__icon{
     width: 50%;

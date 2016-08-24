@@ -1,20 +1,25 @@
 @import 'var.scss';
 .nav{
   position: fixed;
+  z-index: 10;
   top: 0;
   right: -40vw;
-  height: 100vh;
-  z-index: 10;
-  width: 40vw;
-  background: url('../img/navBG.png') no-repeat center center;
+
   overflow: scroll;
-  border-bottom: 4px solid $primary-color;
-  opacity: 0;
+
+  width: 40vw;
+  height: 100vh;
+
   transition: all 0.6s cubic-bezier(0.3, 0.8, 0.9, 1);
   transform: translateZ(0);  // silky smooth 60fps
 
+  opacity: 0;
+  border-bottom: 4px solid $primary-color;
+  background: url('../img/navBG.png') no-repeat center center;
+
   &--active {
-    opacity: 1;
     right:0;
+
+    opacity: 1;
   }
 }

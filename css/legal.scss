@@ -1,8 +1,10 @@
 @import "var.scss";
 .legal{
+  text-transform: capitalize;
+
+  color: #fff;
+
   font-family: $font-stack1;
   font-size: 12px;
   font-weight: 300;
-  text-transform: capitalize;
-  color: #fff;
 }

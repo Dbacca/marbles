@@ -23,12 +23,13 @@
 }
 //
 html{
+  min-height: 100%;
+
   border:4px solid $primary-color;
   background-color: #282828;
-  min-height: 100%;
 }
 body{
-padding: 0;
 margin: 0;
+padding: 0;
 
 }

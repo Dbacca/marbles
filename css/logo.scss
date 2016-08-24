@@ -2,11 +2,13 @@
 
 
 .logo{
-  width: 37px;
-  height: 37px;
   position: fixed;
   top: 75px;
   left: 75px;
+
+  width: 37px;
+  height: 37px;
+
   transition: all 0.6s ease .2s;
 
   &--nav{
@@ -14,6 +16,7 @@
     top: 75px;
     right: 600px;
     left: auto;
+
     opacity: 0;
   }
 
@@ -23,9 +26,11 @@
 
 
     &__text{
+      margin: 0;
+
+      color: $primary-color;
+
       font-family: 'Merriweather', serif;
       font-size: 30px;
-      color: $primary-color;
-      margin: 0;
     }
 }

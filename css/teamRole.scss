@@ -1,38 +1,46 @@
 @import 'var.scss';
 
 .teamRoleList {
-  max-width: 40%;
-  min-width: 445px;
-  height: 500px;
   display: inline-block;
 
+  min-width: 445px;
+  max-width: 40%;
+  height: 500px;
+
   &__item {
+    display: inline-block;
+
     width: 160px;
     max-width: 50%;
-    display: inline-block;
-    white-space: nowrap;
+
     vertical-align: text-top;
+    white-space: nowrap;
   }
 }
 
 .teamRole {
   display: inline-block;
+
   max-width: 50%;
 
   &__heading {
+    list-style: none;
+
+    color: $primary-color;
+
     font-family: $font-stack1;
     font-size: 18px;
     font-weight: 900;
-    color: $primary-color;
-    list-style: none;
   }
 
   &__name {
-    font-family: $font-stack1;
-    font-weight: 300;
-    font-size: 18px;
-    color: #969696;
     list-style: none;
+
+    color: #969696;
+
+    font-family: $font-stack1;
+    font-size: 18px;
+    font-weight: 300;
 
     &:hover{
       color: $primary-color;
