@@ -1,15 +1,23 @@
 @import 'var.scss';
 
 .label{
-  z-index: 2; // why wont this float about the team background that
-              //that has a z-index of 1?
+  position: fixed;
+  z-index: 2;
+  bottom: 15%;
+  left: 60%;
 
   display: inline-block;
 
   width: 347px; // this is the width designated in the comp
   height: 100px;// this is the height designated in the comp
 
-  background-color: #000000;
+  transition: all 0.6s cubic-bezier(0.3, 0.8, 0.9, 1);
+  transform: translateZ(0);  // silky smooth 60fps
+
+  &--active{
+    left: 35%;
+    bottom: 5%;
+  }
 
   &__logo{
     display: inline-block;

@@ -246,16 +246,23 @@
 .teamBackground {
   position: fixed;
   z-index: 1;
-  right: 0;
   bottom: 4px;
+  left: 35%;
   display: inline-block; }
 
 .label {
+  position: fixed;
   z-index: 2;
+  bottom: 15%;
+  left: 60%;
   display: inline-block;
   width: 347px;
   height: 100px;
-  background-color: #000000; }
+  transition: all 0.6s cubic-bezier(0.3, 0.8, 0.9, 1);
+  transform: translateZ(0); }
+  .label--active {
+    left: 35%;
+    bottom: 5%; }
   .label__logo {
     display: inline-block;
     margin: 0;
@@ -285,15 +292,24 @@
   left: 50%;
   transform: translateX(-50%); }
   .chapter__number {
+    position: relative;
     z-index: 1;
+    top: 0;
     display: inline-block;
+    vertical-align: middle;
     color: #cbab68;
     font-family: "Merriweather", serif;
     font-weight: 30px;
     font-weight: 300; }
   .chapter__box {
+    position: relative;
+    z-index: 3;
+    top: 0;
+    right: 50%;
+    display: inline-block;
     width: 63px;
     height: 63px;
+    vertical-align: middle;
     border: 1px solid #cbab68; }
 
 *, *:before, *:after {

@@ -9,9 +9,13 @@
   transform: translateX(-50%);
 
   &__number{
+    position: relative;
     z-index: 1;
+    top: 0;
 
     display: inline-block;
+
+    vertical-align: middle;
 
     color: $primary-color;
 
@@ -21,8 +25,18 @@
 
   }
   &__box{
+    position: relative;
+    z-index: 3;
+    top: 0;
+    right: 50%;
+
+
+    display: inline-block;
+
     width: 63px;
     height: 63px;
+
+    vertical-align: middle;
 
     border: 1px solid $primary-color;
   }
