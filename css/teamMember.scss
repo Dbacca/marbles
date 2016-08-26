@@ -1,0 +1,29 @@
+@import 'var.scss';
+
+.teamMember{
+  display: inline-block;
+
+  padding-left: 6%;
+  &__name{
+    max-width: 100%;
+    margin: 0;
+
+    color: #8d8d8d;
+
+    font-family: $font-stack1;
+    font-size: 24px;
+    font-weight: 300;
+  }
+  &__role{
+    display: inline-block;
+
+    max-width: 100%;
+    margin: 0;
+
+    color: $primary-color;
+
+    font-family: $font-stack1;
+    font-size: 16px;
+    font-weight: 300;
+  }
+}

@@ -7,4 +7,12 @@
   display: inline-block;
 
   max-width: 40%;
+
+  &--team{
+    right: auto;
+    bottom: auto;
+    bottom: -300px;
+    left: -150px;
+
+  }
 }
