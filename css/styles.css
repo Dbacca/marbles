@@ -17,6 +17,9 @@
     position: static;
     display: inline-block;
     margin: 4%; }
+  .logo--blogFooter {
+    position: relative;
+    left: 50%; }
   .logo__text {
     margin: 0;
     color: #cbab68;
@@ -189,6 +192,13 @@
   font-family: "Lato", sans-serif;
   font-size: 12px;
   font-weight: 300; }
+  .legal--blogFooter {
+    position: static;
+    text-transform: uppercase;
+    color: #969696;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 300; }
 
 .footer {
   position: absolute;
@@ -211,34 +221,35 @@
     bottom: -300px;
     left: -150px; }
 
-.teamRoleList {
+.teamRoles {
   display: inline-block;
+  margin-left: 13%;
+  margin-top: 2%;
   min-width: 445px;
   max-width: 40%;
   height: 500px; }
-  .teamRoleList__item {
+  .teamRoles__item {
     display: inline-block;
-    width: 160px;
-    max-width: 50%;
-    vertical-align: text-top;
-    white-space: nowrap; }
-
-.teamRole {
-  display: inline-block;
-  max-width: 50%; }
-  .teamRole__heading {
     list-style: none;
+    min-width: 160px;
+    margin: 0 0 20px;
+    padding: 0;
+    width: 49%;
+    vertical-align: text-top; }
+  .teamRoles__item-heading {
     color: #cbab68;
     font-family: "Lato", sans-serif;
     font-size: 18px;
-    font-weight: 900; }
-  .teamRole__name {
+    font-weight: 900;
+    margin: 0;
+    padding: 0; }
+  .teamRoles__item-name {
     list-style: none;
     color: #969696;
     font-family: "Lato", sans-serif;
     font-size: 18px;
     font-weight: 300; }
-    .teamRole__name:hover {
+    .teamRoles__item-name:hover {
       color: #cbab68; }
 
 .teamHeading {
@@ -322,6 +333,102 @@
     color: #cbab68;
     font-family: "Lato", sans-serif;
     font-size: 16px;
+    font-weight: 300; }
+
+.blogHeading {
+  text-align: center;
+  padding-top: 11.3%; }
+  .blogHeading__main {
+    margin: 0;
+    color: #cbab68;
+    font-family: "Lato", sans-serif;
+    font-size: 100px;
+    font-weight: 900; }
+  .blogHeading__sub {
+    margin: 0;
+    color: #969696;
+    font-family: "Merriweather", serif;
+    font-size: 30px;
+    font-weight: 300; }
+
+.articlePreview {
+  width: 100%;
+  min-height: 300px;
+  margin: 0;
+  padding-top: 5%;
+  text-align: center;
+  background-color: #202020; }
+  .articlePreview:hover {
+    background-color: #fff; }
+    .articlePreview:hover .articlePreview__title {
+      color: #000; }
+  .articlePreview__header {
+    text-transform: uppercase;
+    color: #969696;
+    font-family: "Lato", sans-serif;
+    font-size: 14px; }
+  .articlePreview__title {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    font-weight: 900; }
+
+.articleDetails {
+  list-style: none; }
+  .articleDetails__date {
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    color: #cbab68;
+    text-transform: uppercase;
+    display: inline;
+    padding: 0 1%; }
+  .articleDetails__author {
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    color: #cbab68;
+    text-transform: uppercase;
+    display: inline;
+    padding: 0 1%; }
+  .articleDetails__comments {
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    color: #cbab68;
+    text-transform: uppercase;
+    display: inline;
+    padding: 0 1%; }
+
+.office {
+  display: inline-block; }
+  .office__city {
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    font-weight: 900; }
+  .office__contact {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none; }
+    .office__contact--item {
+      color: #cbab68;
+      font-family: "Lato", sans-serif;
+      font-size: 14px;
+      font-weight: 300; }
+    .office__contact--link {
+      cursor: pointer;
+      color: #969696;
+      font-family: "Lato", sans-serif;
+      font-size: 14px;
+      font-weight: 300; }
+  .office__map {
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #969696;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
     font-weight: 300; }
 
 *, *:before, *:after {

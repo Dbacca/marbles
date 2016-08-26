@@ -1,5 +1,3 @@
-
-
 @import 'logo.scss';
 @import 'welcome.scss';
 @import 'button.scss';
@@ -10,7 +8,7 @@
 @import 'navItem.scss';
 @import 'socialMedia.scss';
 @import 'legal.scss';
-@import 'footer.scss';
+@import 'navFooter.scss';
 @import 'background.scss';
 @import 'teamRole.scss';
 @import 'teamHeading.scss';
@@ -18,6 +16,12 @@
 @import 'label.scss';
 @import 'chapter.scss';
 @import 'teamMember.scss';
+@import 'blogHeading.scss';
+@import 'articlePreview.scss';
+@import 'articleDetails.scss';
+@import 'blogFooter.scss';
+@import 'office.scss';
+
 
 *, *:before, *:after {
   box-sizing: border-box;

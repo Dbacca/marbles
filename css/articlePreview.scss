@@ -1,0 +1,40 @@
+@import 'var.scss';
+
+$block: '.articlePreview';
+
+#{$block}{
+  width:100%;
+  min-height: 300px;
+  margin:0;
+  padding-top: 5%;
+
+  text-align:center;
+
+  background-color: #202020;
+
+  &:hover{
+    background-color: #fff;
+
+    #{$block}__title{
+      color: #000;
+    }
+  }
+
+  &__header{
+    text-transform: uppercase;
+
+    color: #969696;
+
+    font-family: $font-stack1;
+    font-size: 14px;
+  }
+  &__title{
+    text-transform: uppercase;
+
+    color: #fff;
+
+    font-family: $font-stack1;
+    font-size: 30px;
+    font-weight: 900;
+  }
+}

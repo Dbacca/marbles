@@ -1,0 +1,28 @@
+.articleDetails{
+  list-style: none;
+
+  &__date{
+    font-size: 12px;
+    font-family: $font-stack1;
+    color: $primary-color;
+    text-transform: uppercase;
+    display: inline;
+    padding: 0 1%;
+  }
+  &__author{
+    font-size: 12px;
+    font-family: $font-stack1;
+    color: $primary-color;
+    text-transform: uppercase;
+    display: inline;
+    padding: 0 1%;
+  }
+  &__comments{
+    font-size: 12px;
+    font-family: $font-stack1;
+    color: $primary-color;
+    text-transform: uppercase;
+    display: inline;
+    padding: 0 1%;
+  }
+}

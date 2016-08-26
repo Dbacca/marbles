@@ -1,0 +1,26 @@
+@import 'var.scss';
+
+
+.blogHeading{
+  text-align:center;
+  padding-top:11.3%;
+
+  &__main{
+    margin: 0;
+
+    color: $primary-color;
+
+    font-family: $font-stack1;
+    font-size: 100px;
+    font-weight: 900;
+  }
+  &__sub{
+    margin: 0;
+
+    color: #969696;
+
+    font-family: $font-stack2;
+    font-size: 30px;
+    font-weight: 300;
+  }
+}
