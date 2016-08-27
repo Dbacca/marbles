@@ -22,6 +22,11 @@
     left: 50%;
     padding-top: 5%;
     transform: translateX(-50%); }
+  .logo--footer {
+    position: absolute;
+    left: 50%;
+    padding-top: 5%;
+    transform: translateX(-50%); }
   .logo__text {
     margin: 0;
     color: #cbab68;
@@ -414,6 +419,9 @@
 .blogFooter {
   width: 100%; }
 
+.footer {
+  width: 100%; }
+
 .office {
   position: relative;
   left: 30%;
@@ -455,6 +463,37 @@
     font-family: "Lato", sans-serif;
     font-size: 14px;
     font-weight: 300; }
+
+.aboutHeading {
+  padding: 11.3% 0 0 0;
+  text-align: center; }
+  .aboutHeading__main {
+    margin: 0;
+    color: #cbab68;
+    font-family: "Lato", sans-serif;
+    font-size: 100px;
+    font-weight: 900; }
+  .aboutHeading__sub {
+    margin: 0;
+    color: #969696;
+    font-family: "Merriweather", serif;
+    font-size: 30px;
+    font-weight: 300; }
+
+.about {
+  max-width: 47%;
+  margin: 0 auto; }
+  .about__text {
+    margin: 5% 0;
+    word-break: break-all;
+    color: #8d8d8d;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 300; }
+  .about__image {
+    min-width: 365px;
+    max-width: 46%;
+    margin: 1%; }
 
 *, *:before, *:after {
   box-sizing: border-box; }

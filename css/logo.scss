@@ -41,6 +41,16 @@
 
 
   }
+  &--footer{
+    position: absolute;
+    left: 50%;
+
+    padding-top: 5%;
+
+    transform: translateX(-50%);
+
+
+  }
 
     &__text{
       margin: 0;
