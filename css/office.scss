@@ -1,11 +1,17 @@
 @import 'var.scss';
 
 .office{
+  position: relative;
+  left: 30%;
+
   display: inline-block;
+
   width: 25%;
   margin: 0 auto;
+  padding: 15% 0 10% 0;
   &__city {
     margin: 0 auto;
+    padding-bottom: 5%;
 
     text-transform: uppercase;
 
@@ -22,6 +28,8 @@
     list-style: none;
 
     &--item{
+      padding: 1% 0;
+
       color: $primary-color;
 
       font-family: $font-stack1;
@@ -39,6 +47,10 @@
     }
   }
   &__map{
+    display: inline-block;
+
+    padding-top: 5%;
+
     cursor: pointer;
     text-decoration: none;
     text-transform: uppercase;

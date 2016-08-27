@@ -8,6 +8,7 @@ $block: '.articlePreview';
   margin:0;
   padding-top: 5%;
 
+  transition: all .3s ease-out;
   text-align:center;
 
   background-color: #202020;
@@ -21,6 +22,7 @@ $block: '.articlePreview';
   }
 
   &__header{
+    cursor: pointer;
     text-transform: uppercase;
 
     color: #969696;
@@ -29,6 +31,7 @@ $block: '.articlePreview';
     font-size: 14px;
   }
   &__title{
+    cursor: pointer;
     text-transform: uppercase;
 
     color: #fff;

@@ -32,9 +32,13 @@
     margin: 4%;
   }
   &--blogFooter{
-    position: relative;;
+    position: absolute;
     left: 50%;
-    // transform: translateX(-50%);
+
+    padding-top: 5%;
+
+    transform: translateX(-50%);
+
 
   }
 
