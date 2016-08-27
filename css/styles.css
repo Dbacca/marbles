@@ -398,8 +398,13 @@
     display: inline;
     padding: 0 1%; }
 
+.blogFooter {
+  width: 100%; }
+
 .office {
-  display: inline-block; }
+  display: inline-block;
+  width: 25%;
+  margin: 0 auto; }
   .office__city {
     margin: 0 auto;
     text-transform: uppercase;
